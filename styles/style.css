@@ -11,3 +11,98 @@
     padding: 0;
     margin: 0;
 }
+
+body, html {
+    background-image: linear-gradient(to top, var(--color4), var(--color5));
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+section {
+    border-radius: 50px;
+}
+
+section > div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    transform: translateY(20%);
+    margin: auto;
+    max-width: 300px;
+    min-height: 430px;
+    box-shadow: 0px 0px 20px -5px rgba(30, 10, 47, 0.521);
+}
+
+form > div.form {
+    background-color: var(--color2);
+    color: white;
+    margin: 5px;
+    padding: 3px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+section > div > div#back {
+    background-image: url(../images/Background-login.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    width: 340px;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+}
+
+div.form > label {
+    position: relative;
+    top: 53%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+div.form > input {
+    position: relative;
+    top: -45%;
+    left: 55%;
+    width: 220px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 8px;
+    border: none;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+input#esqueci {
+    background-color: white;
+    border: solid rgba(0, 0, 0, 0.397) 1px;
+}
+
+input#logar {
+    background-color: var(--color3);
+    color: white;
+    border: none;
+}
+
+div#button > input {
+    display: block;
+    width: 98%;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 8px;
+}
+

@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" media="all">
     <title>Projeto Login</title>
 </head>
 <body>
     <main>
         <section id="form">
-            <h1>login</h1>
-            <form action="login.py" method="post">
-                <div>
-                    <label for="Iemail">Email: </label>
-                    <input type="email" name="Email" id="Iemail"> <br>
-                    <label for="Isenha">Senha: </label>
-                    <input type="password" name="Senha" id="Isenha">
+            <div>
+                <div id="back">
                 </div>
-                <div>
-                    <input type="submit" value="Logar">
-                    <input type="button" value="Esqueci a senha">
-                </div>
-            </form>
+                <h1>login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.py" method="post">
+                    <div class="form">
+                        <label for="Iemail"><img src="images/email-icon.png" alt="icon"></label>
+                        <input type="email" name="Email" id="Iemail">
+                    </div>
+                    <div class="form">
+                        <label for="Isenha"><img src="images/senha-icon.png" alt="senha"></label>
+                        <input type="password" name="Senha" id="Isenha">
+                    </div>
+                    <div id="button">
+                        <input type="submit" value="Logar" id="logar">
+                        <input type="button" value="Esqueci a senha" id="esqueci">
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 </body>
