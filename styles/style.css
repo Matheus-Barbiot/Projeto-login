@@ -1,0 +1,13 @@
+:root {
+    /** Paleta de Cores **/
+    --color1: #260101;
+    --color2: #8C5D69;
+    --color3: #BF8888;
+    --color4: #D9BFC8;
+    --color5: #B8D3D9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
