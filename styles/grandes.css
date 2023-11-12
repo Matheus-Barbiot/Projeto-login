@@ -1,0 +1,17 @@
+section > div {
+    min-width: 700px;
+    height: 300px;
+}
+
+section > div > div#back {
+    background-position: right;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+section > div > div {
+    width: 300px;
+}
